@@ -5,7 +5,7 @@ use Module::Build::Pluggable qw(
   GithubMeta
 );
 
-my $build = Module::Build->new(
+my $build = Module::Build::Pluggable->new(
     license              => 'perl',
     recursive_test_files => 1,
     dynamic_config       => 0,
